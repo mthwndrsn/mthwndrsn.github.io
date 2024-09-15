@@ -3,7 +3,7 @@ layout: post
 title: Ice Breakers
 ---
 ## One Word
-At [monday.com](http://monday.com/) they keep things simple by having everyone describe their current mood in one word. You can have people explain their one-word mood descriptor if you want to add more depth to your icebreaker activities, but you can also just go with the flow and enjoy how cryptic some of the answers can be. I feel alpaca.
+At [monday.com](https://monday.com/) they keep things simple by having everyone describe their current mood in one word. You can have people explain their one-word mood descriptor if you want to add more depth to your icebreaker activities, but you can also just go with the flow and enjoy how cryptic some of the answers can be. I feel alpaca.
 
 ## A Glass of Wine
 Tori Holbrook, a Content Coordinator at SnackNation, has an easy icebreaker that will have everyone feeling good before a meeting – a glass of wine from Winc.
@@ -39,7 +39,7 @@ During this icebreaker from the [American Management Association](https://www.a
 This idea from Lifehack requires minimal effort and minimal funds. To play, pass a roll of toilet paper around and have everyone rip off how much they would usually use. Everyone will probably think you’re crazy. When the toilet paper makes it all the way around the circle, have everyone count their squares. The number of squares each person took is the number of fun facts they have to reveal about themselves.
 
 ## Trading Card
-[Gamestorming](http://gamestorming.com/category/icebreakers/) recommends kicking off meetings by having everyone make trading cards to represent their personalities.
+[Gamestorming](https://gamestorming.com/category/icebreakers/) recommends kicking off meetings by having everyone make trading cards to represent their personalities.
 
 - Hand out index cards and markers.
 - Tell everyone to draw a self-portrait and write their names, their nicknames (real or imaginary), and a fun fact.
@@ -54,7 +54,7 @@ Make sure everyone has their smartphones. (We doubt this will be a problem.) Sen
 Bring in the head of your department or project and give everyone 15 minutes to ask any questions they have, no holds barred. This icebreaker gets everyone thinking about the topic of your meeting. It might even clarify some of the issues the meeting aims to solve.
 
 ## Movie Pitch
-Another favorite at [monday.com](http://monday.com/), split people into groups and have each group come up with a movie they want to make. Everyone should have a short pitch prepared within 10 minutes. (This film is The Avengers meets My Little Pony.) Let everyone make their pitch, and then have all meeting attendees vote on which idea deserves “funding.” The winners won’t immediately move to pre-production, but they might get a healthy snack for their creativity.
+Another favorite at [monday.com](https://monday.com/), split people into groups and have each group come up with a movie they want to make. Everyone should have a short pitch prepared within 10 minutes. (This film is The Avengers meets My Little Pony.) Let everyone make their pitch, and then have all meeting attendees vote on which idea deserves “funding.” The winners won’t immediately move to pre-production, but they might get a healthy snack for their creativity.
 
 ## Problem Solver
 Give everyone about ten minutes to pick out the biggest problems they see in the office and quickly dream up solutions. People can volunteer to pitch their ideas. Encourage creative thinking by declaring the room a safe zone, even if the boss is in the room. These quick ice breaker ideas will break the thickest of ice, and it might even inspire some projects if someone pitches an idea that resonates with the room.
