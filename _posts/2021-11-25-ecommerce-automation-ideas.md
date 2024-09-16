@@ -3,7 +3,7 @@ layout: post
 title: 150 eCommerce Automation Ideas
 categories: Automation
 tags:
-  - eCommerce
+  - ecommerce
 pin: "true"
 ---
 ## Order Processing

@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "Key Learnings from Making Over 100 Deloitte Proposal Slide Decks"
+title: Key Learnings from Making Over 100 Deloitte Proposal Slide Decks
+categories: Productivity
+tags:
+  - presentations
 ---
 After spending countless hours crafting, refining, and sweating over more than 100 proposal slide decks during my time at Deloitte, I’ve developed some key insights that can help anyone in the corporate world, especially those working on high-stakes pitches. These aren’t just tips for making a slide pretty—these are the hard-won lessons that can turn a deck into a compelling, client-winning story. Whether you're a consultant, project manager, or just the lucky one tasked with whipping up a pitch deck, these learnings should help you save time, energy, and a lot of frustration.
 

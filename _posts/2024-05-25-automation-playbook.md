@@ -2,8 +2,7 @@
 layout: post
 title: An Automation Playbook for Small Business
 categories: Automation
-tags:
-  - automation
+tags: []
 ---
 Running a small business can often feel like a constant balancing act. You’re managing operations, marketing, sales, customer support, and even your finances. Time, as you know, is the one resource you can never seem to get enough of. But what if there was a way to take some of those tedious, repetitive tasks off your plate? That’s where automation comes in. 
 
