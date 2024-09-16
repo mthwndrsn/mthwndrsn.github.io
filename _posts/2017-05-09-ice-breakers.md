@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Ice Breakers
+tags:
+  - workshops
 ---
 ## One Word
 At [monday.com](https://monday.com/) they keep things simple by having everyone describe their current mood in one word. You can have people explain their one-word mood descriptor if you want to add more depth to your icebreaker activities, but you can also just go with the flow and enjoy how cryptic some of the answers can be. I feel alpaca.

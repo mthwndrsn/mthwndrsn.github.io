@@ -1,9 +1,10 @@
 ---
-layout: post
 title: How I Built My Automations in Python
-categories: Automation
+categories:
+  - Automation
 tags:
   - code
+  - automation
 ---
 Automation has been a game-changer for my productivity and day-to-day workflow. Whether it's managing emails, updating spreadsheets, or sending reminders, I've found Python to be the perfect tool to take these repetitive tasks off my plate and let me focus on the more important stuff.
 

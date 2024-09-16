@@ -1,6 +1,9 @@
 ---
-layout: post
-title: "Do Cold Emails Work in 2024? A Modern Guide to Outreach Success"
+title: Do Cold Emails Work in 2024? A Modern Guide to Outreach Success
+tags:
+  - email
+  - sales
+  - acquisition
 ---
 Cold emailing has been around for decades as a staple in sales, marketing, and business outreach. But with changing technology, customer preferences, and the ever-evolving nature of inboxes (thank you, spam filters), the question for 2024 is: *Do cold emails still work?*
 

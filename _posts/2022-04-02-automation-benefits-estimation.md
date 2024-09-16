@@ -1,6 +1,8 @@
 ---
-layout: post
-title: "How to Calculate the Benefits of Automation"
+title: How to Calculate the Benefits of Automation
+tags:
+  - automation
+  - leadership
 ---
 Automation is often touted as the magic bullet for improving efficiency, reducing costs, and freeing up valuable time in businesses. Whether you're considering automating a single process or a series of tasks across your organisation, it’s important to understand the **tangible benefits** before diving in headfirst. In this post, I'll walk you through how to **calculate the benefits of automation** so you can determine whether it’s worth the investment.
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Key Learnings from Making Over 100 Deloitte Proposal Slide Decks
 categories: Productivity
 tags:

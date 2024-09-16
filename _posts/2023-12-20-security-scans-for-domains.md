@@ -1,6 +1,9 @@
 ---
-layout: post
 title: Security Scans for Domains
+tags:
+  - cybersecurity
+  - code
+  - web
 ---
 ## Website Security
 1. HTTP Strict Transport Security (HSTS) not enforced: Without HSTS enforced, people browsing this site are more susceptible to man-in-the-middle attacks. The server should be configured to support HSTS

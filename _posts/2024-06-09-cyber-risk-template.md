@@ -1,9 +1,11 @@
 ---
-layout: post
 title: Why I Built a Cyber Risk Assessment Tool for Small Businesses
-categories: Cybersecurity
+categories:
+  - Cybersecurity
 tags:
   - templates
+  - cybersecurity
+  - risk
 ---
 In today’s fast-paced digital world, small businesses are increasingly becoming the target of cyber threats. While large corporations often have the budget to employ dedicated security teams and implement robust cyber defenses, small businesses are left to fend for themselves. Many don’t even know where to begin when it comes to assessing and mitigating cyber risks.
 

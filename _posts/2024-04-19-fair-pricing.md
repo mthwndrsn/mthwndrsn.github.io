@@ -1,6 +1,8 @@
 ---
-layout: post
-title: "A Fair Pricing Model for Automation Consulting"
+title: A Fair Pricing Model for Automation Consulting
+tags:
+  - startup
+  - pricing
 ---
 When it comes to pricing automation consulting services, fairness isn’t just about being affordable; it's about aligning the costs with the actual value delivered to the client. Below is a breakdown of the fair pricing models based on the types of automation services, ensuring that both parties see a win-win outcome.
 

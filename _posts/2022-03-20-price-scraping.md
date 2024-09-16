@@ -1,7 +1,7 @@
 ---
-layout: post
 title: How Automated Price Scraping Transformed an Australian eCommerce Retailer
-categories: "[Case_Studies, eCommerce]"
+categories:
+  - Case Studies
 tags:
   - automation
   - python

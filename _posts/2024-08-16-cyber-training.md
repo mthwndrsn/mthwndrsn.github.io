@@ -1,7 +1,11 @@
 ---
-layout: post
 title: Why I Created a Monthly Cybersecurity Training Automation for Small Businesses
-categories: Cybersecurity
+categories:
+  - Cybersecurity
+tags:
+  - cybersecurity
+  - training
+  - leadership
 ---
 In today's digital age, cybersecurity is more than just a buzzword—it's a necessity. Cyberattacks are on the rise, and while large enterprises may have the resources to fend off these attacks, small businesses are often left vulnerable. In fact, according to the *2023 Cyber Readiness Report*, 43% of cyberattacks target small businesses, and yet 60% of those businesses close their doors within six months of being attacked. This got me thinking: how can small businesses stay ahead of these threats without blowing their budget?
 

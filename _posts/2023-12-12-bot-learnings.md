@@ -1,6 +1,10 @@
 ---
-layout: post
 title: "I Bet on the Wrong Horse: Starting a Business Promoting Bots (the What) Rather Than Automation (the How)"
+tags:
+  - automation
+  - robots
+  - code
+  - low-code
 ---
 Starting a business is always a learning curve, full of excitement and optimism. But sometimes, you realise that despite your best intentions, you've placed your bets on the wrong horse. This is exactly what happened to me when I ventured into promoting bots rather than focusing on the broader concept of automation. Let me share a few thoughts on how I went wrong, what I learned, and why the “how” of automation is more valuable than the shiny “what” of bots.
 

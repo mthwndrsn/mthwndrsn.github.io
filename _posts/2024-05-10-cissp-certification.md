@@ -1,6 +1,8 @@
 ---
-layout: post
 title: "My Journey to CISSP Certification: A Consultant’s Guide to Getting Certified"
+tags:
+  - cybersecurity
+  - certificates
 ---
 So, I recently got my CISSP certification, and let me tell you, it was a wild ride. For those who don’t know, CISSP (Certified Information Systems Security Professional) is like the golden ticket in cybersecurity. It’s globally recognised, highly respected, and opens a lot of doors if you’re looking to work in cybersecurity or, like me, you’re in tech consulting and need to show you know your stuff when it comes to security.
 

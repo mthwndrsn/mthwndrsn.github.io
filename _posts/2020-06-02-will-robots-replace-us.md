@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Will Robots Take My Job? – A Fun Yet Sobering Look Into the Future of Work
 categories: Automation
 tags:

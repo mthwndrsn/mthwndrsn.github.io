@@ -1,6 +1,8 @@
 ---
-layout: post
 title: Breaking Down Goals
+tags:
+  - productivity
+  - leadership
 ---
 It's easy to get overwhelmed by the sheer number of tasks and goals we need to achieve. Whether you're a business owner juggling multiple projects, a student working towards long-term goals, or someone simply trying to organize your life, breaking things down can often feel like an insurmountable challenge.
 

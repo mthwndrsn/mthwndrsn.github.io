@@ -1,6 +1,9 @@
 ---
-layout: post
 title: "Using Low-Code Tools for Automation: A Practical Guide"
+tags:
+  - code
+  - low-code
+  - automation
 ---
 When it comes to streamlining workflows and boosting productivity, automation is the way forward. But if you’ve ever tried to automate something, you probably realised it can get complex pretty fast—particularly when coding is involved. Thankfully, with the rise of *low-code* and *no-code* tools, you don’t need to be a seasoned developer to get things done. These platforms make automation accessible, even for those of us who would prefer not to stare at code all day!
 

@@ -1,6 +1,8 @@
 ---
-layout: post
-title: "How to Structure a Landing Page That Converts (and Looks Good Doing It!)"
+title: How to Structure a Landing Page That Converts (and Looks Good Doing It!)
+tags:
+  - code
+  - design
 ---
 You’ve probably heard the phrase "first impressions matter" a million times. Well, when it comes to your landing page, that’s 100% true. Whether you’re launching a new product, building your brand, or gathering leads for your next project, the structure of your landing page is critical to its success.
 

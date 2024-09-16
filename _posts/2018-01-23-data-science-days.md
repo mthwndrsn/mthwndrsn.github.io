@@ -1,6 +1,8 @@
 ---
-layout: post
-title: "What I Learnt During My Days as a Data Scientist"
+title: What I Learnt During My Days as a Data Scientist
+tags:
+  - data
+  - analysis
 ---
 Before I started blogging about tech and productivity, I spent a fair bit of time in the world of data science. It was a wild ride — filled with cryptic algorithms, endless datasets, and the occasional Excel sheet that still haunts me. Although I’ve since moved on to other ventures, my time as a data scientist left me with some valuable lessons, both technical and personal. So, in the spirit of ‘building in public’, let me share a few of the key things I learnt during my stint as a data scientist.
 

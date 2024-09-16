@@ -1,6 +1,9 @@
 ---
-layout: post
 title: Automation Process Mapping
+tags:
+  - automation
+  - process
+  - analysis
 ---
 Automation can significantly improve your business by reducing errors, saving time, and boosting productivity. However, to automate a process effectively, you need a clear map of how the process works. In this guide, we’ll walk you through the steps of mapping a process to be automated, with a focus on visualizing the process using Mermaid charts.
 

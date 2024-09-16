@@ -1,6 +1,8 @@
 ---
-layout: post
-title: "Lessons Learned from Selling on Amazon"
+title: Lessons Learned from Selling on Amazon
+tags:
+  - ecommerce
+  - startup
 ---
 For many entrepreneurs, Amazon is a tantalising marketplace, full of promise and potential. With over 300 million active users globally, it's hard not to be attracted to the idea of tapping into this goldmine. But like any gold rush, selling on Amazon comes with its challenges, learnings, and sometimes the odd disappointment.
 
