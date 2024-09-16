@@ -1,6 +1,10 @@
 ---
 layout: post
 title: 150 eCommerce Automation Ideas
+categories: Automation
+tags:
+  - eCommerce
+pin: "True"
 ---
 **Order Processing**
 1. Automatic Order Confirmation: Send automated email or SMS confirmations to customers after they place an order.

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Identifying Candidates for Automation
+categories: Automation
+tags: 
+pin: "True"
 ---
 Automation has transformed businesses across industries, helping them become more efficient, scalable, and cost-effective. But not every process is suitable for automation. Knowing which tasks to automate and which to leave manual is key to achieving maximum benefits without overcomplicating things. So, how do you determine if a process is a good candidate for automation? Here’s a simple guide to help you figure it out.
 
