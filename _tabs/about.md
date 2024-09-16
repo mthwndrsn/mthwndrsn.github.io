@@ -3,9 +3,6 @@
 icon: fas fa-info-circle
 order: 4
 ---
-
-## About Matt Anderson
-
 G'day! I'm Matt Anderson, an Aussie tech enthusiast with a background in management consulting, business analysis, and project management. After spending years in the corporate grind, I've decided to do something a bit different: start this blog.
 
 ### Why a Blog?
