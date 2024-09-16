@@ -29,7 +29,3 @@ Thanks for stopping by, and I hope you find something useful here!
 
 Cheers,  
 Matt
-
----
-
-This keeps things conversational, informative, and aligns with the idea of sharing your journey and progress.
