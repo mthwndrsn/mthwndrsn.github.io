@@ -1,5 +1,5 @@
 ---
-title: "Case Study: How Automated Price Scraping Transformed an Australian eCommerce Retailer"
+title: "Case Study: Automating Price Scraping for an Australian eCommerce Retailer"
 categories:
   - Case Studies
 tags:
