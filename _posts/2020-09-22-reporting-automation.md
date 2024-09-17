@@ -1,5 +1,5 @@
 ---
-title: Automating Data Extraction and Reporting for an Australian Telco
+title: "Case Study: Automating Data Extraction and Reporting for an Australian Telco"
 categories:
   - Case Studies
 tags:
@@ -10,141 +10,132 @@ tags:
   - diagram
 mermaid: true
 ---
-### Overview
+**Industry**: Telecommunications  
+**Location**: Australia  
+**Solution**: Automated Data Extraction and Reporting  
+**Tools**: Python, RPA (UiPath), SQL, Power BI, Excel
 
-In the world of telecommunications, managing vast amounts of data can be a logistical nightmare. Australian telcos deal with data from customer usage patterns, billing systems, network performance metrics, and more. One of the key challenges faced by a particular Australian telecommunications company was extracting this data from multiple sources and compiling it into comprehensive reports for internal stakeholders.
+---
 
-This case study details the process automation solution implemented for the telco, involving the use of Apache Zeppelin, Excel, and custom Python code for data extraction, transformation, and automated reporting. This automation not only saved time but also reduced human error and significantly improved the efficiency of data handling.
+### Introduction
 
-### Process Overview
+The telecommunications (telco) industry operates in a highly data-driven environment. Telco companies rely on accurate, timely data to monitor network performance, customer usage, and sales metrics. However, manually extracting and processing this data for reporting can be tedious, error-prone, and time-consuming.
 
-The problem revolved around manually extracting data from various systems (databases, APIs, and Excel files), transforming it into a readable format, and compiling reports in Excel. This process was error-prone and time-consuming, often leading to delayed reporting and inaccuracies.
+In this case study, we explore how an Australian telecommunications company automated its data extraction and reporting processes, allowing the organisation to reduce manual efforts, improve report accuracy, and deliver insights in near real-time.
 
-The solution implemented involved using Python scripts for automated data extraction, Zeppelin for data visualisation and manipulation, and Excel for the final reporting. The process was broken down into the following steps:
+---
 
-1. **Data Extraction**: Python scripts were used to extract data from multiple sources, including SQL databases and APIs.
-2. **Data Transformation**: The extracted data was cleaned and transformed into the required structure using Zeppelin notebooks.
-3. **Automated Reporting**: Once transformed, the data was exported into pre-configured Excel templates for reporting purposes.
-4. **Scheduled Automation**: The entire process was automated to run on a daily/weekly schedule, delivering up-to-date reports directly to stakeholders' inboxes.
+### Problem
 
-### Process Flow Diagram
+The telco company was facing several challenges in its data reporting processes:
 
-To help visualise the entire workflow, here's a process flow diagram generated in Mermaid:
+- **Manual data extraction**: The team had to manually pull data from various systems, including CRM, billing, and network monitoring systems, into Excel spreadsheets for further analysis.
+- **Error-prone**: Manually extracting and compiling data from multiple sources increased the risk of human error, leading to inaccurate reports and delayed decision-making.
+- **Time-consuming reporting**: Preparing weekly and monthly reports took several days due to the manual nature of data collection, validation, and formatting.
+- **Scalability issues**: As the company’s operations grew, so did the complexity and volume of data, making it increasingly difficult to manage reporting manually.
+
+The company needed a streamlined, automated solution to improve efficiency, accuracy, and the timeliness of data reporting.
+
+---
+
+### Solution: Automated Data Extraction and Reporting
+
+The solution implemented involved using **Robotic Process Automation (RPA)** to automate data extraction from multiple systems and **Business Intelligence (BI) tools** to generate and visualise reports. The automated workflow significantly reduced manual intervention, enhanced report accuracy, and enabled real-time reporting.
+
+#### Process Overview
+
+Here’s how the automated data extraction and reporting process worked:
+
+1. **Data Extraction (RPA)**: The RPA bot retrieves data from various sources, including CRM (Salesforce), billing systems, and network performance databases, using **SQL** queries and API calls. The data is extracted at set intervals (e.g., daily or weekly).
+2. **Data Transformation**: Extracted data is cleaned, validated, and formatted to ensure consistency. This is done using Python scripts that remove duplicates, correct formatting issues, and validate field entries.
+3. **Data Loading (Power BI)**: The cleaned data is automatically loaded into the company’s **Power BI** system, where predefined dashboards and reports are generated based on key performance metrics (KPIs) such as customer churn, average revenue per user (ARPU), and network uptime.
+4. **Report Generation**: Power BI generates reports in real-time, making them available to management and other stakeholders through a shared dashboard. These reports include visualisations such as charts, graphs, and tables.
+5. **Automated Distribution**: Once the reports are generated, they are automatically emailed to relevant stakeholders, including executives and department heads, at scheduled intervals.
+6. **Ongoing Monitoring**: The system continuously monitors data sources and sends alerts in case of anomalies, such as significant drops in network performance or spikes in customer complaints, enabling quicker response times.
+
+#### Process Diagram
+
+Here’s a visual representation of the automated data extraction and reporting process:
 
 ```mermaid
-graph LR
-    A[Data Sources] -->|Extract| B[Python Script]
-    B -->|Transform| C[Zeppelin Notebooks]
-    C -->|Export| D[Excel Template]
-    D -->|Automated Report| E[Email Delivery]
-
-    subgraph Data Sources
-        DB1[SQL Database]
-        API1[API Endpoints]
-        Excel1[Excel Files]
-    end
+graph TD;
+    Data_Extraction -->|Retrieve Data| RPA_Bot;
+    RPA_Bot -->|SQL/API Queries| CRM_Billing_Databases;
+    CRM_Billing_Databases -->|Clean & Transform Data| Python_Scripts;
+    Python_Scripts -->|Load Data| Power_BI;
+    Power_BI -->|Generate Reports| Dashboard;
+    Dashboard -->|Real-time Access| Stakeholders;
+    Dashboard -->|Scheduled Email Reports| Stakeholders;
+    Dashboard -->|Monitor & Alert| Team_Alerts;
 ```
-
-### Benefits of the Automation
-
-Implementing this robotic process automation (RPA) had several tangible benefits for the telco:
-
-1. **Time Savings**: The manual reporting process that used to take days was reduced to a matter of hours, or even minutes. Reports were automatically generated at scheduled intervals without the need for manual intervention.
-  
-2. **Reduced Errors**: Manual data extraction and reporting were prone to errors, especially when dealing with large datasets from multiple sources. Automation eliminated data entry mistakes, ensuring more accurate and consistent reports.
-
-3. **Increased Efficiency**: By automating the extraction, transformation, and reporting steps, the team was able to focus on data analysis and decision-making rather than mundane administrative tasks.
-
-4. **Scalability**: The solution was built to scale with growing data and reporting requirements. As the telco expanded its services, the automated system could handle more data and generate more complex reports with minimal changes to the underlying code.
-
-5. **Real-time Insights**: With automated daily reporting, decision-makers received near real-time insights into key metrics such as network performance and customer behaviour.
 
 ### Sample Code
 
-Below is an example of the Python code used for data extraction and transformation. The code connects to a SQL database, fetches the necessary data, processes it in a Zeppelin notebook, and exports it into an Excel report.
+Here’s a Python code snippet that demonstrates how the bot can extract data from an SQL database, clean it, and load it into Power BI for reporting:
 
-#### 1. **Python Script for Data Extraction**:
 ```python
-import pandas as pd
 import pyodbc
+import pandas as pd
 
-# Database connection
-conn = pyodbc.connect('DRIVER={SQL Server};'
-                      'SERVER=your_server;'
-                      'DATABASE=your_database;'
-                      'UID=your_username;'
-                      'PWD=your_password')
+# Step 1: Connect to the SQL database and retrieve data
+def fetch_data_from_sql(query):
+    conn = pyodbc.connect('DRIVER={SQL Server};SERVER=server_name;DATABASE=database_name;UID=user;PWD=password')
+    data = pd.read_sql(query, conn)
+    conn.close()
+    return data
 
-# SQL query to fetch data
-query = """
-SELECT
-    CustomerID,
-    Usage,
-    NetworkQuality,
-    BillingAmount
-FROM
-    dbo.CustomerData
-WHERE
-    Date >= GETDATE() - 7
+# Example SQL query
+sql_query = """
+SELECT customer_id, plan_type, monthly_usage, monthly_revenue
+FROM billing_data
+WHERE billing_month = '2024-09'
 """
 
-# Execute query and fetch data
-data = pd.read_sql(query, conn)
+# Fetch data from the billing database
+data = fetch_data_from_sql(sql_query)
 
-# Close the connection
-conn.close()
+# Step 2: Clean and validate the data
+def clean_data(df):
+    # Remove duplicates
+    df = df.drop_duplicates()
+    
+    # Validate monthly usage and revenue fields
+    df = df[df['monthly_usage'] > 0]  # Ensure usage is positive
+    df = df[df['monthly_revenue'] > 0]  # Ensure revenue is positive
+    
+    # Correct any formatting issues
+    df['customer_id'] = df['customer_id'].astype(str)
+    
+    return df
 
-# Save data to CSV for further processing
-data.to_csv('customer_data.csv', index=False)
+cleaned_data = clean_data(data)
+
+# Step 3: Export cleaned data to Excel (as an example)
+cleaned_data.to_excel('cleaned_billing_data.xlsx', index=False)
+
+# Step 4: Load the cleaned data into Power BI (Power BI integration through API or connector)
 ```
 
-#### 2. **Zeppelin Notebook for Data Transformation**:
-```python
-%pyspark
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import col
+This script connects to the company’s SQL database, retrieves data, cleans and validates it, and prepares it for further analysis or loading into Power BI.
 
-# Initialize Spark session
-spark = SparkSession.builder.appName("Data Transformation").getOrCreate()
+### Benefits Derived
 
-# Load the data
-df = spark.read.option("header", True).csv("/path/to/customer_data.csv")
+The automation of data extraction and reporting provided several key benefits to the telco:
 
-# Data cleaning and transformation
-cleaned_df = df.filter(col("Usage").isNotNull()).withColumn("Usage_in_GB", col("Usage") / 1024)
+1. **Time Savings**: The manual process that once took several days was reduced to a matter of hours, with reports being generated and distributed automatically.
+2. **Improved Accuracy**: Automating data extraction and validation eliminated manual data entry errors, leading to more accurate and reliable reports.
+3. **Real-time Reporting**: With data being extracted and updated in near real-time, the company gained access to up-to-date insights on network performance, customer metrics, and sales trends.
+4. **Increased Efficiency**: Automating repetitive tasks freed up staff to focus on higher-value activities, such as analysing trends and making strategic decisions based on the data.
+5. **Better Decision-Making**: Management had access to more frequent and accurate reports, enabling quicker responses to issues such as network outages or customer churn spikes.
 
-# Save the transformed data for reporting
-cleaned_df.write.mode("overwrite").csv("/path/to/transformed_data.csv")
-```
-
-#### 3. **Excel Automation for Reporting**:
-The final part involved automating Excel reporting using the Python `openpyxl` library. Here's a snippet of how it was done:
-
-```python
-import openpyxl
-from openpyxl import load_workbook
-
-# Load Excel template
-wb = load_workbook('report_template.xlsx')
-ws = wb.active
-
-# Load the transformed data
-transformed_data = pd.read_csv('transformed_data.csv')
-
-# Populate the Excel sheet with data
-for index, row in transformed_data.iterrows():
-    ws.append([row['CustomerID'], row['Usage_in_GB'], row['NetworkQuality'], row['BillingAmount']])
-
-# Save the updated report
-wb.save('final_report.xlsx')
-```
+---
 
 ### Conclusion
 
-This automated process for data extraction and reporting not only streamlined operations for the Australian telco but also delivered timely and accurate reports without the need for manual intervention. The combination of Python, Zeppelin, and Excel created a robust, scalable solution that drastically reduced the time spent on repetitive tasks, improved data accuracy, and empowered the team to focus on strategic decision-making. 
+By automating its data extraction and reporting processes, the Australian telco improved its ability to monitor key metrics and generate accurate, timely reports. The combination of RPA and business intelligence tools enabled real-time insights and a significant reduction in manual work, allowing the company to operate more efficiently and make faster, data-driven decisions.
 
-This case study demonstrates the power of automation in improving operational efficiency, particularly in industries dealing with large and complex datasets.
+For companies in data-heavy industries like telecommunications, automating the data extraction and reporting process not only improves operational efficiency but also enhances the ability to respond to challenges in a timely manner.
 
---- 
+---
 
-That's how we did it! With the right tools and a little bit of coding, even the most tedious tasks can be transformed into an efficient, hands-off process. If you're working in an industry where data management and reporting are key, it might be time to consider a similar automation approach. Cheers to productivity!
+This case study demonstrates the power of automation in transforming data management workflows. For organisations that rely on vast amounts of data, automating the extraction, validation, and reporting processes can significantly improve operational efficiency, enhance decision-making, and provide a competitive edge.
