@@ -1,10 +1,12 @@
 ---
-title: How Automated Price Scraping Transformed an Australian eCommerce Retailer
+title: "Case Study: How Automated Price Scraping Transformed an Australian eCommerce Retailer"
 categories:
   - Case Studies
 tags:
   - automation
   - python
+  - case
+mermaid: true
 ---
 Price is a key determinant of success. Customers can effortlessly compare prices across multiple platforms, and as an eCommerce business, keeping up with this constant price comparison is essential. For one prominent Australian eCommerce retailer, the solution to this challenge was price scraping technology. By automating competitor price monitoring, this retailer was able to dramatically improve operational efficiency and boost gross transaction value (GTV) and gross profit (GP). Let’s dive into how they achieved this through a case study of their implementation.
 
