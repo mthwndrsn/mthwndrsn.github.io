@@ -1,5 +1,5 @@
 ---
-title: Automating Billing Engine Data Synchronisation with Salesforce for an Australian Energy Retailer
+title: Automating Billing Engine Syncs for an Australian Energy Retailer
 categories:
   - Case Studies
 tags:
